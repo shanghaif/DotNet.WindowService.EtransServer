@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+	services: 服务集
+	service : 单个服务节
+	task	: 单个任务
+	class	: 完整类名
+	assembly: 程序集
+	sleepTime : 线程等时间（多线程任务时有效）单位毫秒
+	triggerTimes : 触发任务执行的时间点列表（时间点任务时有效）
+	triggerTime :  触发任务执行的时间点（时间点任务时有效）
+	parameters : 参数列表（可选）
+	parameter :	 参数如<companyId>OR1200000702</companyId>后台获取方式为Parameters.GetSafeValue<string>("companyId")（可选）
+	interval  : 任务触发时间周期（周期性任务时有效）
+	startTime: 任务首次执行时间（周期性任务时有效)
+	activate:表示是否激活服务或任务
+-->
+<services>
+  <service name="EtransService" class="ET.WinService.EtransService" assembly="ET.WinService" activate="true">
+    <task>
+      <class>ET.WinService.Task.AreaStatisticsTask</class>
+      <assembly>ET.WinService.Task</assembly>
+      <taskName>电子围栏区域报警</taskName>
+      <sleepTime>200</sleepTime>
+      <triggerTimes>
+        <triggerTime>12:00:00</triggerTime>
+        <triggerTime>23:59:00</triggerTime>
+      </triggerTimes>
+      <activate>false</activate>
+    </task>
+    <task>
+      <class>ET.WinService.Task.MileageStatisticsTask</class>
+      <assembly>ET.WinService.Task</assembly>
+      <taskName>里程分析</taskName>
+      <sleepTime>200</sleepTime>
+      <triggerTimes>
+        <triggerTime>12:00:00</triggerTime>
+        <triggerTime>23:59:00</triggerTime>
+      </triggerTimes>
+      <activate>false</activate>
+    </task>
+    <task>
+      <class>ET.WinService.Task.ValidSpeedStatisticsTask</class>
+      <assembly>ET.WinService.Task</assembly>
+      <taskName>有效速度分析</taskName>
+      <sleepTime>200</sleepTime>
+      <triggerTimes>
+        <triggerTime>12:00:00</triggerTime>
+        <triggerTime>23:59:00</triggerTime>
+      </triggerTimes>
+      <activate>false</activate>
+    </task>
+    <task>
+      <class>ET.WinService.Task.VehicleStatusStatisticsTask</class>
+      <assembly>ET.WinService.Task</assembly>
+      <taskName>车辆状态分析</taskName>
+      <sleepTime>200</sleepTime>
+      <triggerTimes>
+        <triggerTime>12:00:00</triggerTime>
+        <triggerTime>23:59:00</triggerTime>
+      </triggerTimes>
+      <activate>false</activate>
+    </task>
+    <task>
+      <class>ET.WinService.Task.StudyStaisticsTask</class>
+      <assembly>ET.WinService.Task</assembly>
+      <taskName>学时统计</taskName>
+      <sleepTime>200</sleepTime>
+      <triggerTimes>
+        <triggerTime>15:20:00</triggerTime>
+      </triggerTimes>
+      <activate>True</activate>
+    </task>
+  </service>
+</services>

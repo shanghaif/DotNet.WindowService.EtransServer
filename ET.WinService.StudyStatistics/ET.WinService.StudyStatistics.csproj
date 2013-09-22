@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B3171459-97E2-43CA-8880-0021A4EFEC8F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ET.WinService.StudyStatistics</RootNamespace>
+    <AssemblyName>ET.WinService.StudyStatistics</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\packages\log4net.2.0.0\lib\net40-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common">
+      <HintPath>..\packages\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data">
+      <HintPath>..\packages\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder">
+      <HintPath>..\packages\Microsoft.Practices.ObjectBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DAL\ANADrivingDAL.cs" />
+    <Compile Include="DAL\StudyRecordReclacDAL.cs" />
+    <Compile Include="DAL\VehMapDAL.cs" />
+    <Compile Include="DAL\DataSourceDAL.cs" />
+    <Compile Include="DAL\RepRecordTeacherDAL.cs" />
+    <Compile Include="DAL\ReqExamProcessDAL.cs" />
+    <Compile Include="DAL\StudyDrivingSubjectDAL.cs" />
+    <Compile Include="DAL\StudyRecordInvalidDAL.cs" />
+    <Compile Include="DAL\StudyRecordResultAdditionDAL .cs" />
+    <Compile Include="DAL\StudyRecordResultDAL.cs" />
+    <Compile Include="DAL\StudyStatByDayDAL.cs" />
+    <Compile Include="DAL\StudyStatFlowSubjectDAL.cs" />
+    <Compile Include="DAL\StudyStatStudentDAL.cs" />
+    <Compile Include="DAL\StuExamApplyDAL.cs" />
+    <Compile Include="DAL\StuExamResultDAL.cs" />
+    <Compile Include="DAL\SubjectParamDAL.cs" />
+    <Compile Include="DAL\SysSubjectDAL.cs" />
+    <Compile Include="DAL\VehicleStatusParamDAL.cs" />
+    <Compile Include="Entity\ANADriving.cs" />
+    <Compile Include="Entity\ANA_DrivingCheckVehicleInAreaDaliy.cs" />
+    <Compile Include="Entity\DataSource.cs" />
+    <Compile Include="Entity\ReqExamProcess.cs" />
+    <Compile Include="Entity\StudyDrivingSubject.cs" />
+    <Compile Include="Entity\StudyRecordGpsData.cs" />
+    <Compile Include="Entity\StudyStatByDay.cs" />
+    <Compile Include="Entity\StudyStatFlowSubject.cs" />
+    <Compile Include="Entity\StudyStatStudent.cs" />
+    <Compile Include="Entity\StuExamApply.cs" />
+    <Compile Include="Entity\SysSubject.cs" />
+    <Compile Include="Entity\TempEntity.cs" />
+    <Compile Include="Entity\TempStudyRecord.cs" />
+    <Compile Include="Entity\RepRecordStudent.cs" />
+    <Compile Include="Entity\RepRecordTeacher.cs" />
+    <Compile Include="Entity\StudyRecord.cs" />
+    <Compile Include="Entity\StudyRecordInvalid.cs" />
+    <Compile Include="Entity\SubjectParam.cs" />
+    <Compile Include="Entity\TrackCommNo.cs" />
+    <Compile Include="Entity\TrackData.cs" />
+    <Compile Include="Entity\TrackDataCommNo.cs" />
+    <Compile Include="Entity\VehicleStatusParam.cs" />
+    <Compile Include="Entity\VehMap.cs" />
+    <Compile Include="Enums.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StudyStat.cs" />
+    <Compile Include="StudyTimeStat.cs" />
+    <Compile Include="ValidityCheck.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ET.WinService.Core\ET.WinService.Core.csproj">
+      <Project>{77E6CC40-7EE7-4EA5-8ADD-6AC0DE3A8189}</Project>
+      <Name>ET.WinService.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

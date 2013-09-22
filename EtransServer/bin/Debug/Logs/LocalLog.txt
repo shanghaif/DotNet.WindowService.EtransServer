@@ -1,0 +1,113 @@
+2013/5/22 10:00:50-----WinService cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\WinService.xml
+2013/5/22 10:00:50-----Service cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\Service.xml
+2013/5/22 10:01:03-----Begin Run WinService!
+2013/5/22 10:01:03-----WinService cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\WinService.xml
+2013/5/22 10:01:03-----Service cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\Service.xml
+2013/5/22 18:12:50-----Run WinService Complete!
+2013/5/22 21:44:16-----Begin Run WinService!
+2013/5/22 21:44:18-----WinService cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\WinService.xml
+2013/5/22 21:44:18-----Service cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\Service.xml
+2013/5/22 23:24:29-----Run WinService Complete!
+2013/5/23 8:54:29-----Begin Run WinService!
+2013/5/23 8:54:30-----WinService cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\WinService.xml
+2013/5/23 8:54:30-----Service cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\Service.xml
+2013/5/23 11:44:31-----Run WinService Complete!
+2013/5/23 11:45:36-----Begin Run WinService!
+2013/5/23 11:45:38-----WinService cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\WinService.xml
+2013/5/23 11:45:38-----Service cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\Service.xml
+2013/5/23 15:18:34-----WinService cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\WinService.xml
+2013/5/23 15:18:34-----Service cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\Service.xml
+2013/5/23 15:19:06-----Run WinService Complete!
+2013/5/23 15:19:10-----Begin Run WinService!
+2013/5/23 15:19:10-----WinService cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\WinService.xml
+2013/5/23 15:19:10-----Service cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\Service.xml
+2013/5/23 15:19:15-----Run WinService Complete!
+2013/5/23 15:19:22-----Begin Run WinService!
+2013/5/23 15:19:22-----WinService cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\WinService.xml
+2013/5/23 15:19:22-----Service cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\Service.xml
+2013/5/23 18:12:09-----Run WinService Complete!
+2013/5/24 8:54:02-----Begin Run WinService!
+2013/5/24 8:54:06-----WinService cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\WinService.xml
+2013/5/24 8:54:06-----Service cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\Service.xml
+2013/5/24 13:15:11-----Run WinService Complete!
+2013/5/24 13:16:04-----Begin Run WinService!
+2013/5/24 13:16:05-----WinService cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\WinService.xml
+2013/5/24 13:16:05-----Service cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\Service.xml
+2013/5/24 18:15:18-----Run WinService Complete!
+2013/5/25 10:04:56-----Begin Run WinService!
+2013/5/25 10:04:59-----WinService cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\WinService.xml
+2013/5/25 10:04:59-----Service cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\Service.xml
+2013/5/25 14:51:16-----Run WinService Complete!
+2013/5/25 19:35:15-----Begin Run WinService!
+2013/5/25 19:35:17-----WinService cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\WinService.xml
+2013/5/25 19:35:18-----Service cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\Service.xml
+2013/5/26 1:00:44-----Run WinService Complete!
+2013/5/26 20:39:48-----Begin Run WinService!
+2013/5/26 20:39:49-----WinService cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\WinService.xml
+2013/5/26 20:39:49-----Service cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\Service.xml
+2013/5/27 8:11:17-----Run WinService Complete!
+2013/5/27 8:59:28-----Begin Run WinService!
+2013/5/27 8:59:30-----WinService cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\WinService.xml
+2013/5/27 8:59:30-----Service cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\Service.xml
+2013/5/27 18:06:36-----Run WinService Complete!
+2013/5/27 20:36:45-----Begin Run WinService!
+2013/5/27 20:36:46-----WinService cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\WinService.xml
+2013/5/27 20:36:46-----Service cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\Service.xml
+2013/5/27 22:59:09-----Run WinService Complete!
+2013/5/28 9:01:18-----Begin Run WinService!
+2013/5/28 9:01:19-----WinService cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\WinService.xml
+2013/5/28 9:01:19-----Service cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\Service.xml
+2013/5/28 18:07:30-----Run WinService Complete!
+2013/5/28 20:05:58-----Begin Run WinService!
+2013/5/28 20:05:58-----WinService cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\WinService.xml
+2013/5/28 20:05:58-----Service cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\Service.xml
+2013/5/28 23:09:44-----Run WinService Complete!
+2013/5/29 9:04:49-----Begin Run WinService!
+2013/5/29 9:04:51-----WinService cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\WinService.xml
+2013/5/29 9:04:51-----Service cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\Service.xml
+2013/5/29 18:07:05-----Run WinService Complete!
+2013/5/29 21:12:57-----Begin Run WinService!
+2013/5/29 21:12:58-----WinService cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\WinService.xml
+2013/5/29 21:12:58-----Service cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\Service.xml
+2013/5/29 23:37:09-----Run WinService Complete!
+2013/5/30 9:00:04-----Begin Run WinService!
+2013/5/30 9:00:05-----WinService cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\WinService.xml
+2013/5/30 9:00:05-----Service cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\Service.xml
+2013/5/30 15:22:43-----Run WinService Complete!
+2013/5/30 15:23:40-----Begin Run WinService!
+2013/5/30 15:23:41-----WinService cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\WinService.xml
+2013/5/30 15:23:41-----Service cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\Service.xml
+2013/5/30 18:04:25-----Run WinService Complete!
+2013/5/30 21:24:32-----Begin Run WinService!
+2013/5/30 21:24:33-----WinService cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\WinService.xml
+2013/5/30 21:24:34-----Service cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\Service.xml
+2013/5/30 23:15:05-----Run WinService Complete!
+2013/5/30 23:45:23-----Begin Run WinService!
+2013/5/30 23:45:24-----WinService cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\WinService.xml
+2013/5/30 23:45:24-----Service cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\Service.xml
+2013/5/31 0:07:56-----Run WinService Complete!
+2013/5/31 9:04:05-----Begin Run WinService!
+2013/5/31 9:04:07-----WinService cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\WinService.xml
+2013/5/31 9:04:07-----Service cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\Service.xml
+2013/5/31 18:11:46-----Run WinService Complete!
+2013/5/31 20:49:14-----Begin Run WinService!
+2013/5/31 20:49:15-----WinService cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\WinService.xml
+2013/5/31 20:49:15-----Service cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\Service.xml
+2013/5/31 22:09:30-----Run WinService Complete!
+2013/6/3 9:16:45-----Begin Run WinService!
+2013/6/3 9:16:46-----WinService cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\WinService.xml
+2013/6/3 9:16:46-----Service cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\Service.xml
+2013/6/3 18:05:30-----Run WinService Complete!
+2013/6/4 8:57:20-----Begin Run WinService!
+2013/6/4 8:57:21-----WinService cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\WinService.xml
+2013/6/4 8:57:21-----Service cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\Service.xml
+2013/6/4 18:05:37-----Run WinService Complete!
+2013/6/4 20:47:24-----Begin Run WinService!
+2013/6/4 20:47:24-----WinService cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\WinService.xml
+2013/6/4 20:47:24-----Service cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\Service.xml
+2013/6/4 22:14:41-----Run WinService Complete!
+2013/6/5 9:02:15-----Begin Run WinService!
+2013/6/5 9:02:16-----WinService cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\WinService.xml
+2013/6/5 9:02:16-----Service cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\Service.xml
+2013/6/5 13:37:31-----WinService cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\WinService.xml
+2013/6/5 13:37:32-----Service cfgFile=E:\work\code\EtransServer\EtransServer\bin\Debug\ConfigFiles\Service.xml

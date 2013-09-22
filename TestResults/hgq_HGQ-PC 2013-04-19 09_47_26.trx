@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="1f1ca682-7bb6-4045-92a0-fa557ee74ba9" name="hgq@HGQ-PC 2013-04-19 09:47:26" runUser="hgq-PC\hgq" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="默认测试设置" id="a8adc6f2-0e01-4cbd-bb79-9a0316c71585">
+    <Deployment runDeploymentRoot="hgq_HGQ-PC 2013-04-19 09_47_26">
+      <DeploymentItem filename="E:\work\code\EtransServer\ET.WinService.StudyStatistics\bin\Debug\ET.WinService.StudyStatistics.dll" />
+      <DeploymentItem filename="E:\work\code\EtransServer\ET.WinService.Core\bin\Debug\ET.WinService.Core.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-04-19T09:47:26.3082694+08:00" queuing="2013-04-19T09:47:27.4213330+08:00" start="2013-04-19T09:47:27.5553407+08:00" finish="2013-04-19T09:47:45.6963783+08:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="2" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="HGQ-PC" outcome="Warning" timestamp="2013-04-19T09:47:26.4042748+08:00">
+        <Text>警告: 测试运行部署问题: 找不到程序集或模块“Microsoft.Practices.EnterpriseLibrary.Data”由 测试容器“e:\work\code\etransserver\et.winservice.test\et.winservice.test\bin\debug\et.winservice.test.dll” 直接或间接引用。</Text>
+      </RunInfo>
+      <RunInfo computerName="HGQ-PC" outcome="Warning" timestamp="2013-04-19T09:47:26.4042748+08:00">
+        <Text>警告: 测试运行部署问题: 找不到程序集或模块“log4net”由 测试容器“e:\work\code\etransserver\et.winservice.test\et.winservice.test\bin\debug\et.winservice.test.dll” 直接或间接引用。</Text>
+      </RunInfo>
+      <RunInfo computerName="HGQ-PC" outcome="Error" timestamp="2013-04-19T09:47:45.6953782+08:00">
+        <Text>测试宿主进程意外退出。</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="StudyStatConstructorTest" storage="e:\work\code\etransserver\et.winservice.test\et.winservice.test\bin\debug\et.winservice.test.dll" id="733d6e12-79fe-0f63-d702-2acc3a2ca4de">
+      <Execution id="9177d573-8254-4384-98fe-247d7188a555" />
+      <TestMethod codeBase="E:/work/code/EtransServer/ET.WinService.Test/ET.WinService.Test/bin/Debug/ET.Winservice.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ET.Winservice.Test.StudyStatTest, ET.Winservice.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StudyStatConstructorTest" />
+    </UnitTest>
+    <UnitTest name="MyTest" storage="e:\work\code\etransserver\et.winservice.test\et.winservice.test\bin\debug\et.winservice.test.dll" id="b6e26714-ae30-0fc8-9eb8-d17f81225b4f">
+      <Execution id="a05d062e-a485-444e-81fb-cf7005c82bcd" />
+      <TestMethod codeBase="E:/work/code/EtransServer/ET.WinService.Test/ET.WinService.Test/bin/Debug/ET.Winservice.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ET.Winservice.Test.StudyStatTest, ET.Winservice.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MyTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b6e26714-ae30-0fc8-9eb8-d17f81225b4f" executionId="a05d062e-a485-444e-81fb-cf7005c82bcd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="733d6e12-79fe-0f63-d702-2acc3a2ca4de" executionId="9177d573-8254-4384-98fe-247d7188a555" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a05d062e-a485-444e-81fb-cf7005c82bcd" testId="b6e26714-ae30-0fc8-9eb8-d17f81225b4f" testName="MyTest" computerName="HGQ-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a05d062e-a485-444e-81fb-cf7005c82bcd">
+    </UnitTestResult>
+    <UnitTestResult executionId="9177d573-8254-4384-98fe-247d7188a555" testId="733d6e12-79fe-0f63-d702-2acc3a2ca4de" testName="StudyStatConstructorTest" computerName="HGQ-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9177d573-8254-4384-98fe-247d7188a555">
+    </UnitTestResult>
+  </Results>
+</TestRun>

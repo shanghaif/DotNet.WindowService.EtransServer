@@ -1,0 +1,10 @@
+E:\work\code\EtransServer\EtransServer\bin\Debug\WinServiceManager.exe.config
+E:\work\code\EtransServer\EtransServer\bin\Debug\WinServiceManager.exe
+E:\work\code\EtransServer\EtransServer\bin\Debug\WinServiceManager.pdb
+E:\work\code\EtransServer\ET.WinService.Manager\obj\x86\Debug\ET.WinService.Manager.csprojResolveAssemblyReference.cache
+E:\work\code\EtransServer\ET.WinService.Manager\obj\x86\Debug\ET.WinService.Manager.Properties.Resources.resources
+E:\work\code\EtransServer\ET.WinService.Manager\obj\x86\Debug\ET.WinService.Manager.TaskEdit.resources
+E:\work\code\EtransServer\ET.WinService.Manager\obj\x86\Debug\ET.WinService.Manager.WinServiceManager.resources
+E:\work\code\EtransServer\ET.WinService.Manager\obj\x86\Debug\ET.WinService.Manager.csproj.GenerateResource.Cache
+E:\work\code\EtransServer\ET.WinService.Manager\obj\x86\Debug\WinServiceManager.exe
+E:\work\code\EtransServer\ET.WinService.Manager\obj\x86\Debug\WinServiceManager.pdb

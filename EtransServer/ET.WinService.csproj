@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{23904B0E-7774-4E4C-BEFF-A603F80D043D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ET.WinService</RootNamespace>
+    <AssemblyName>ET.WinService</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\packages\log4net.2.0.0\lib\net40-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EtransInstaller.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EtransService.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EtransService.Designer.cs">
+      <DependentUpon>EtransService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InstallHelper.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FileMonitorService.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FileMonitorService.Designer.cs">
+      <DependentUpon>FileMonitorService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceUtil.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="setup.bat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="unsetup.bat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ConfigFiles\log4net.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ConfigFiles\Service.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ConfigFiles\WinService.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ET.WinService.AreaStatistics\ET.WinService.AreaStatistics.csproj">
+      <Project>{439AF251-8B5A-4F08-B9C2-4E74D4695436}</Project>
+      <Name>ET.WinService.AreaStatistics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ET.WinService.Core\ET.WinService.Core.csproj">
+      <Project>{77E6CC40-7EE7-4EA5-8ADD-6AC0DE3A8189}</Project>
+      <Name>ET.WinService.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ET.WinService.MileageStatistics\ET.WinService.MileageStatistics.csproj">
+      <Project>{A5E51D5B-D188-4DA4-BBF6-D87CE828DEEF}</Project>
+      <Name>ET.WinService.MileageStatistics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ET.WinService.StudyStatistics\ET.WinService.StudyStatistics.csproj">
+      <Project>{B3171459-97E2-43CA-8880-0021A4EFEC8F}</Project>
+      <Name>ET.WinService.StudyStatistics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ET.WinService.Task\ET.WinService.Task.csproj">
+      <Project>{9A4AB248-2CEF-4886-A12F-B89B646908A5}</Project>
+      <Name>ET.WinService.Task</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ET.WinService.ValidSpeedStatistics\ET.WinService.ValidSpeedStatistics.csproj">
+      <Project>{EF1D71DD-CCB9-43D6-ABB0-68F194495DD9}</Project>
+      <Name>ET.WinService.ValidSpeedStatistics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ET.WinService.VehicleStatusStatistics\ET.WinService.VehicleStatusStatistics.csproj">
+      <Project>{AAC630C8-20CE-44CC-B42A-672B111E4F9A}</Project>
+      <Name>ET.WinService.VehicleStatusStatistics</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

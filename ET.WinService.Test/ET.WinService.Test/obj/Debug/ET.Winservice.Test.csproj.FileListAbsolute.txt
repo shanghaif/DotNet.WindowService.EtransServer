@@ -1,0 +1,10 @@
+E:\work\code\EtransServer\ET.WinService.Test\ET.WinService.Test\bin\Debug\ET.Winservice.Test.dll.config
+E:\work\code\EtransServer\ET.WinService.Test\ET.WinService.Test\bin\Debug\ET.Winservice.Test.dll
+E:\work\code\EtransServer\ET.WinService.Test\ET.WinService.Test\bin\Debug\ET.Winservice.Test.pdb
+E:\work\code\EtransServer\ET.WinService.Test\ET.WinService.Test\bin\Debug\ET.WinService.Core.dll
+E:\work\code\EtransServer\ET.WinService.Test\ET.WinService.Test\bin\Debug\ET.WinService.StudyStatistics.dll
+E:\work\code\EtransServer\ET.WinService.Test\ET.WinService.Test\bin\Debug\ET.WinService.Core.pdb
+E:\work\code\EtransServer\ET.WinService.Test\ET.WinService.Test\bin\Debug\ET.WinService.StudyStatistics.pdb
+E:\work\code\EtransServer\ET.WinService.Test\ET.WinService.Test\obj\Debug\ET.Winservice.Test.csprojResolveAssemblyReference.cache
+E:\work\code\EtransServer\ET.WinService.Test\ET.WinService.Test\obj\Debug\ET.Winservice.Test.dll
+E:\work\code\EtransServer\ET.WinService.Test\ET.WinService.Test\obj\Debug\ET.Winservice.Test.pdb

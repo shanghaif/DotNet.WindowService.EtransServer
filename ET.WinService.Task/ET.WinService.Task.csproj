@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9A4AB248-2CEF-4886-A12F-B89B646908A5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ET.WinService.Task</RootNamespace>
+    <AssemblyName>ET.WinService.Task</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\packages\log4net.2.0.0\lib\net40-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AreaStatisticsTask.cs" />
+    <Compile Include="MileageStatisticsTask.cs" />
+    <Compile Include="MutilTask.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StudyStaisticsTask.cs" />
+    <Compile Include="TestTask.cs" />
+    <Compile Include="ValidSpeedStatisticsTask.cs" />
+    <Compile Include="VehicleStatusStatisticsTask.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ET.WinService.AreaStatistics\ET.WinService.AreaStatistics.csproj">
+      <Project>{439AF251-8B5A-4F08-B9C2-4E74D4695436}</Project>
+      <Name>ET.WinService.AreaStatistics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ET.WinService.Core\ET.WinService.Core.csproj">
+      <Project>{77E6CC40-7EE7-4EA5-8ADD-6AC0DE3A8189}</Project>
+      <Name>ET.WinService.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ET.WinService.MileageStatistics\ET.WinService.MileageStatistics.csproj">
+      <Project>{A5E51D5B-D188-4DA4-BBF6-D87CE828DEEF}</Project>
+      <Name>ET.WinService.MileageStatistics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ET.WinService.StudyStatistics\ET.WinService.StudyStatistics.csproj">
+      <Project>{B3171459-97E2-43CA-8880-0021A4EFEC8F}</Project>
+      <Name>ET.WinService.StudyStatistics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ET.WinService.ValidSpeedStatistics\ET.WinService.ValidSpeedStatistics.csproj">
+      <Project>{EF1D71DD-CCB9-43D6-ABB0-68F194495DD9}</Project>
+      <Name>ET.WinService.ValidSpeedStatistics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ET.WinService.VehicleStatusStatistics\ET.WinService.VehicleStatusStatistics.csproj">
+      <Project>{AAC630C8-20CE-44CC-B42A-672B111E4F9A}</Project>
+      <Name>ET.WinService.VehicleStatusStatistics</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--
+	CompanyName:公司名称 
+	AppVersion	: 程序版本号
+	TaskValidTimeSpan : 任务延时时间
+	ServiceCfg : 服务配置文件
+	LogCfg :  日结配置文件
+	TrySendTimes : 待办同步错误重发次数
+-->
+<ETServer>
+	<CompanyName>广州</CompanyName>
+  <AppVersion>V1.0</AppVersion>
+	<TaskValidTimeSpan>2</TaskValidTimeSpan>
+	<TrySendTimes>10</TrySendTimes>
+	<ServiceCfg>Service.xml</ServiceCfg>
+	<LogCfg>log4net.xml</LogCfg>
+</ETServer>

@@ -1,0 +1,7 @@
+E:\work\code\EtransServer\ET.WinService.AreaStatistics\bin\Debug\ET.WinService.AreaStatistics.dll
+E:\work\code\EtransServer\ET.WinService.AreaStatistics\bin\Debug\ET.WinService.AreaStatistics.pdb
+E:\work\code\EtransServer\ET.WinService.AreaStatistics\bin\Debug\ET.WinService.Core.dll
+E:\work\code\EtransServer\ET.WinService.AreaStatistics\bin\Debug\ET.WinService.Core.pdb
+E:\work\code\EtransServer\ET.WinService.AreaStatistics\obj\Debug\ET.WinService.AreaStatistics.csprojResolveAssemblyReference.cache
+E:\work\code\EtransServer\ET.WinService.AreaStatistics\obj\Debug\ET.WinService.AreaStatistics.dll
+E:\work\code\EtransServer\ET.WinService.AreaStatistics\obj\Debug\ET.WinService.AreaStatistics.pdb

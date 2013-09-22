@@ -1,0 +1,11 @@
+E:\work\code\EtransServer\ET.WinService.MileageStatistics\bin\Debug\ET.WinService.MileageStatistics.dll
+E:\work\code\EtransServer\ET.WinService.MileageStatistics\bin\Debug\ET.WinService.MileageStatistics.pdb
+E:\work\code\EtransServer\ET.WinService.MileageStatistics\bin\Debug\ET.WinService.Core.dll
+E:\work\code\EtransServer\ET.WinService.MileageStatistics\bin\Debug\log4net.dll
+E:\work\code\EtransServer\ET.WinService.MileageStatistics\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\work\code\EtransServer\ET.WinService.MileageStatistics\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\work\code\EtransServer\ET.WinService.MileageStatistics\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+E:\work\code\EtransServer\ET.WinService.MileageStatistics\bin\Debug\ET.WinService.Core.pdb
+E:\work\code\EtransServer\ET.WinService.MileageStatistics\bin\Debug\log4net.xml
+E:\work\code\EtransServer\ET.WinService.MileageStatistics\obj\Debug\ET.WinService.MileageStatistics.dll
+E:\work\code\EtransServer\ET.WinService.MileageStatistics\obj\Debug\ET.WinService.MileageStatistics.pdb
